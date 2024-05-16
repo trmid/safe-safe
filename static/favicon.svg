@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="70.505531mm"
+   height="70.505531mm"
+   viewBox="0 0 70.505531 70.505531"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="layer1"
+     transform="translate(-71.23616,-136.6273)">
+    <rect
+       style="fill:#231f20;stroke-width:3.34301;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+       id="rect1"
+       width="70.505531"
+       height="70.505531"
+       x="71.23616"
+       y="136.6273"
+       ry="10.95941" />
+    <g
+       id="g6"
+       transform="translate(0.36478043,0.43624496)">
+      <rect
+         style="fill:#ffcad9;fill-opacity:1;stroke-width:1.71943;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect2"
+         width="8.3612566"
+         height="16.252779"
+         x="87.455894"
+         y="155.35023"
+         ry="3.9457614" />
+      <rect
+         style="fill:#ffcad9;fill-opacity:1;stroke-width:1.71943;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect3"
+         width="8.3612556"
+         height="29.914705"
+         x="146.89503"
+         y="-124.7924"
+         ry="3.9457614"
+         transform="rotate(90)" />
+      <rect
+         style="fill:#ffcad9;fill-opacity:1;stroke-width:1.71943;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect4"
+         width="8.3612566"
+         height="16.252779"
+         x="167.69958"
+         y="-114.51255"
+         ry="3.9457614"
+         transform="rotate(90)" />
+      <rect
+         style="fill:#ffcad9;fill-opacity:1;stroke-width:1.71943;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect5"
+         width="8.3612566"
+         height="16.252779"
+         x="-124.75272"
+         y="-187.53741"
+         ry="3.9457614"
+         transform="scale(-1)" />
+      <rect
+         style="fill:#ffcad9;fill-opacity:1;stroke-width:1.71943;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
+         id="rect6"
+         width="8.3612556"
+         height="29.091042"
+         x="-195.99261"
+         y="88.239922"
+         ry="3.9457614"
+         transform="rotate(-90)" />
+    </g>
+  </g>
+</svg>

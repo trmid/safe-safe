@@ -11,7 +11,6 @@
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
   },
   "dependencies": {
-    "@generationsoftware/hyperstructure-client-js": "^1.12.2",
     "@wagmi/core": "^2.6.5",
     "viem": "^2.7.8"
   },
