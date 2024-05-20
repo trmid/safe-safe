@@ -14,17 +14,15 @@
 
 <style>
   nav {
-    display: flex;
-    justify-content: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     background-color: inherit;
-    border-bottom: solid 2px var(--pt-purple-700);
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    border-bottom: solid 2px currentColor;
     z-index: 50;
     font-family: monospace;
   }
 
   nav > div {
+    margin: 0 auto;
     width: 100%;
     max-width: 1280px;
     display: flex;

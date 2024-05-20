@@ -1,6 +1,7 @@
 <script>
   import Safe from '$lib/Safe.svelte'
-  import { walletClient } from '$lib/stores'
+  import SearchBar from '$lib/SearchBar.svelte'
+  import { showBookmarks, walletClient } from '$lib/stores'
 </script>
 
 <svelte:head>
@@ -8,6 +9,28 @@
   <meta name="description" content="Safe safe for safety." />
 </svelte:head>
 
-{#if !!$walletClient}
-  <Safe wallet={$walletClient}></Safe>
-{/if}
+<SearchBar />
+
+<div id="app-bar">
+  {#if $showBookmarks}
+    <div>bookmarks</div>
+  {/if}
+  {#if !!$walletClient}
+    <Safe wallet={$walletClient}></Safe>
+  {/if}
+</div>
+
+<style>
+  #app-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    flex-grow: 1;
+  }
+
+  @media screen and (max-width: 540px) {
+    #app-bar {
+      flex-direction: column;
+    }
+  }
+</style>
