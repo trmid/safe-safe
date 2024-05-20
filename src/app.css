@@ -1,12 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: sans-serif;
   font-feature-settings: 'calt' off;
+  width: 100%;
+  height: 100%;
+  --bg: #231f20;
+  --bg-2: #17171a;
+  --primary: #ffcad9;
+  --secondary: #284051;
 }
 
 body {
   margin: 0;
-  color: #ffcad9ff;
-  background-color: #231f20ff;
+  color: var(--primary);
+  background-color: var(--bg);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  overflow: hidden;
 }
 
 body > div {
@@ -17,8 +33,8 @@ button,
 input,
 textarea {
   border: none;
-  background-color: rgb(23, 23, 26);
-  color: #ffcad9ff;
+  background-color: var(--bg-2);
+  color: var(--primary);
   border-radius: 5px;
   padding: 0.5rem 1rem;
 }
