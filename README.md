@@ -1,6 +1,8 @@
-# PoolTogether SvelteKit Template 🌊🏆
+<img src="./static/favicon.svg" width="128px"/><br />
 
-This is a minimal template for a static [SvelteKit](https://kit.svelte.dev/) app that interacts with the [PoolTogether](https://pooltogether.com/) protocol.
+# Safe Safe
+
+A minimal Safe wallet app with iframe dapp connections.
 
 ## 🧞 Commands
 
@@ -12,10 +14,3 @@ All commands are run from the root of the project, from a terminal:
 | `pnpm dev`     | Starts local dev server at `localhost:5173`  |
 | `pnpm build`   | Build your production site to `./build/`     |
 | `pnpm preview` | Preview your build locally, before deploying |
-
-## 🔗 Useful Links
-
-- [PoolTogether Dev Docs](https://dev.pooltogether.com/)
-- [PoolTogether Discord](https://pooltogether.com/discord)
-- [PoolTogether Governance Forum](https://gov.pooltogether.com/)
-- [G9's PoolTogether SDK](https://github.com/GenerationSoftware/pooltogether-client-monorepo/tree/main/packages/hyperstructure-client-js)
