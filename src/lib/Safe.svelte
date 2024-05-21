@@ -1,9 +1,9 @@
 <script lang="ts">
-  import { isAddress, parseEther, zeroAddress, type Address, type WalletClient } from 'viem'
+  import { isAddress, parseEther, zeroAddress, type WalletClient } from 'viem'
   import { SafeABI } from './safeAbi'
   import { NETWORKS } from './networks'
   import IFrameApp from './IFrameApp.svelte'
-  import { appSrc, chainId, safeAddress } from './stores'
+  import { activePopupCount, appSrc, chainId, safeAddress } from './stores'
 
   export let wallet: WalletClient
 
@@ -71,10 +71,21 @@
       {/key}
     {/key}
   {/if}
+  {#if $activePopupCount > 0}
+    <div id="click-capture"></div>
+  {/if}
 </div>
 
 <style>
   #container {
+    position: relative;
     flex-grow: 1;
+  }
+
+  #click-capture {
+    position: absolute;
+    inset: 0;
+    background-color: #0004;
+    z-index: 2;
   }
 </style>

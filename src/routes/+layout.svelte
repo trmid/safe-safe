@@ -13,7 +13,8 @@
     flex-direction: column;
     align-items: stretch;
     flex-grow: 1;
-    background-color: var(--secondary);
-    background: linear-gradient(170deg, var(--primary) -10%, var(--secondary) 110%);
+    background-color: var(--bg2);
+
+    transition: all 1s ease-in-out;
   }
 </style>

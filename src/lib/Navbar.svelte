@@ -5,8 +5,7 @@
 <nav>
   <div>
     <span>
-      <img src="favicon.svg" alt="" />
-      <strong>Safe Safe</strong>
+      <span id="logo">Safe Safe</span>
     </span>
     <ConnectButton />
   </div>
@@ -19,6 +18,8 @@
     border-bottom: solid 2px currentColor;
     z-index: 50;
     font-family: monospace;
+
+    transition: all 1s ease-in-out;
   }
 
   nav > div {
@@ -40,5 +41,9 @@
 
   nav > div img {
     height: 32px;
+  }
+
+  #logo {
+    font-family: 'Major Mono Display', monospace;
   }
 </style>

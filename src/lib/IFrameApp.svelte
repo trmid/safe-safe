@@ -3,7 +3,7 @@
   import { IFrameCommunicator } from './iframeCommunicator'
   import type { MethodToResponse, RPCPayload } from './iframeCommunicatorTypes'
   import { Methods } from './iframeCommunicatorTypes'
-  import { getAddress, type Address, type WalletClient } from 'viem'
+  import { type Address, type WalletClient } from 'viem'
 
   export let src: string
   export let wallet: WalletClient
@@ -48,7 +48,7 @@
     communicator.on(Methods.sendTransactions, async (msg) => {
       console.log(msg)
       const transactions = ((msg.data.params as any).txs as any[]).map(({ to, ...rest }) => ({
-        to: getAddress(to), // checksummed
+        to,
         ...rest
       }))
       const txHash = await sendTx(transactions[0])

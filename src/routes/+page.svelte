@@ -1,7 +1,7 @@
 <script>
   import Safe from '$lib/Safe.svelte'
   import SearchBar from '$lib/SearchBar.svelte'
-  import { showBookmarks, walletClient } from '$lib/stores'
+  import { walletClient } from '$lib/stores'
 </script>
 
 <svelte:head>
@@ -12,9 +12,6 @@
 <SearchBar />
 
 <div id="app-bar">
-  {#if $showBookmarks}
-    <div>bookmarks</div>
-  {/if}
   {#if !!$walletClient}
     <Safe wallet={$walletClient}></Safe>
   {/if}
